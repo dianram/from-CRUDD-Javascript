@@ -11,26 +11,21 @@
   
 
   .inventario-container {
-    margin-top: 70px;
-    max-height: 400px;  
-    padding-top:500px;
-    min-width: 500px;
+    padding: 1rem 2rem;
+    min-width: 400px;
     user-select: none;
     border: 2px solid #BC5D2E;
+  }
+  
+  body {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     background-color: white;
-    margin-bottom: 10px;
   }
-  .create-inventario-button {
-      margin-top: 10px;
-      max-width: 500px;
-      justify-content: center;
-      align-items: center;
-      margin: auto;
-      place-items: center;
-  }
-  .bottom-section svg:hover {
-    background-color: #BC5D2E;
-  }
+  
+  /* the title and the twitter handle */
   .title {
     display: flex;
     align-items: center;
@@ -101,4 +96,6 @@
   .c-red {
     color: red;
   }
-  
+  .form-group{
+      max-width: 2  00px;
+  }
