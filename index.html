@@ -12,37 +12,34 @@
     <title>Sistema Inventario</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-7">
-     <div class="inventario-container"></div>
-            </div>
-     <div class="col-5">
+    <div class="container text-center">
+        <div class="row justify-content-md-center">
+          <div class="col col-lg-2">
           <h1 style="font-weight: 100; margin-top: 10px; font-family:vultura; color:#F34213; text-align: center;">Ingreso productos de inventario</h1>
           <hr style="width: 100px; height: 2px; background: #BC5D2E; margin-left: auto; margin-right: auto; margin-top: 30px; " />
           <form id="inventario-form">
             <div class="form-group">
-              <label for="title">Producto</label>
-              <input id="title-input" type="text" class="form-control mb-3 mt-2" id="title" aria-describedby="emailHelp" placeholder="Nombre del producto">
+              <label for="producto">Producto</label>
+              <input id="title-input" type="text" class="form-control mb-3 mt-2" id="producto" aria-describedby="emailHelp" placeholder="Nombre del producto">
             </div>
             <div class="form-group">
               <label for="precio">Precio</label>
-              <input id="precio-input" type="text" class="form-control mb-3 mt-2" id="description" aria-describedby="emailHelp" placeholder="Precio del producto">
+              <input id="precio-input" type="text" class="form-control mb-3 mt-2" id="precio" aria-describedby="emailHelp" placeholder="Precio del producto">
             </div>
             <div class="form-group">
                 <label for="description">Cantidad</label>
-                <input id="cantidad-input" type="number" class="form-control mb-3 mt-2" id="description" aria-describedby="emailHelp" placeholder="Cantidad Disponible">
+                <input id="cantidad-input" type="number" class="form-control mb-3 mt-2" id="cantidad" aria-describedby="emailHelp" placeholder="Cantidad Disponible">
               </div>
               <div class="form-group">
                 <label for="description">Detalles</label>
                 <label for="exampleFormControlTextarea1" class="form-label"> del producto</label>
-            <textarea class="form-control" id="detalle-area" rows="3"></textarea>
+            <textarea class="form-control" id="descripcion" rows="3"></textarea>
               </div>
               <br>
-                <button id="create-inventario-button" type="submit" class="btn btn-primary">Previsualizar</button>
+                <button id="mirar-inventario-button" type="submit" class="btn btn-primary">Previsualizar</button>
                 <button id="guardar-inventario-button" type="submit" class="btn btn-primary">Guardar</button>
           </form>
-        </div>
+          </div>
     </div>
 </body>
 </html>
