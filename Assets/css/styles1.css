@@ -1,13 +1,4 @@
-@font-face {
-    font-family: 'Vultura';
-    src: url('https://d1e1jt2fj4r8r.cloudfront.net/fonts/Vultura/Vultura-Regular.woff2') format('woff2'),
-         url('https://d1e1jt2fj4r8r.cloudfront.net/fonts/Vultura/Vultura-Regular.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-  }
-  :root {
-    --global-primary-font-family: Vultura, serif;
-  }
+
   
 
   .inventario-container {
@@ -28,7 +19,45 @@
       margin: auto;
       place-items: center;
   }
-  .modal{
-    font-family: vultura;
-    
-  }
+.modal-content{
+  background-color: #eeeeee!important;
+}
+.modal-body {
+  border: 1px solid #BC5D2E;
+  position: relative;
+    flex: 1 1 auto;
+    margin:5px;
+    border-radius: 10px;
+    background: #eeeeee;
+}
+.modal-header {
+  border-bottom: 1px solid #eeeeee;
+}
+
+.modal-header{
+  background-color: #eeeeee;
+  color: #1a1a1a;
+}
+.modal-footer{
+  background-color: #eeeeee;
+  justify-content: center!important;
+}
+.close{
+  border-radius: 0px;
+}
+.close:hover{
+  border-color: #BC5D2E;
+  background-color: #BC5D2E;
+  color:#fff;
+} 
+.btn-primary {
+  color: #fff;
+  background-color: #000!important;
+  border-color: #000!important;
+  border-radius: 0px!important;
+}
+.btn-primary:hover{
+  color: #000!important;
+  background-color: #fff!important;
+  border-color: #000!important;
+}
