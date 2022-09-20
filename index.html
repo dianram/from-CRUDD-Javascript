@@ -13,9 +13,20 @@
     <title>Inventario</title>
 </head>
 <body>
-     
+    <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <img src="../from-CRUDD-Javascript/Assets/img/logo.png" alt="logo">
+          </div>
+          <div class="col">
+          </div>
+        </div>
+    <div class="container text-center">
     <div class="container-fluid">
-        <h1 class="main-title">Inventario</h1>
+        <h1 style="color:#BC5D2E; font-weight: 400;font-family: montserrat;" class="main-title">INVENTARIO</h1>
+        <p>Ingreso de productos para inventario</p>
+    </div>
+    <div class="container-fluid">
             <div class="row  justify-content-end">
               <div class="col-6 ml-auto d-flex justify-content-end">
                   <button id="eliminar-seleccion" type="submit" class="btn btn-labeled ">
@@ -51,8 +62,8 @@
                                   <input id="qty-input" type="number" class="form-control mb-3 mt-2" id="cantidad" aria-describedby="emailHelp" placeholder="Cantidad Disponible">
                                 </div>
                                 <div class="form-group">
-                                  <label for="description">Detalles</label>
-                                  <label for="exampleFormControlTextarea1" class="form-label"> del producto</label>
+                                  <label for="detalles">Detalles del producto</label>
+                                  <label for="exampleFormControlTextarea1" class="form-label"></label>
                               <textarea class="form-control" id="descripcion" rows="3"></textarea>
                                 </div>
                           </form>
@@ -95,6 +106,7 @@
               </tr>
             </tbody>
         </table>
+        <button id="guardar-button-form" type="submit" class="btn btn-primary"  >GUARDAR</button>
 
      </div>     
 

@@ -4,10 +4,41 @@ html, body{
 }
 
 div.container-fluid{
-  background-color:lightgray;
+  background-color:#f8f8f8;
   border: 2px solid;
   width: 95%;
   border-radius: 5px;
   margin-top: 15px;
   
 } 
+.table>:not(caption)>*>* {
+  padding: 0.5rem 0.5rem;
+  background-color: var(--bs-table-bg);
+  border-bottom-width: 1px;
+  box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+  border-color: #BC5D2E;
+}
+.fa-plus:hover:before {
+  content: "\2b";
+  color: #BC5D2E;
+}
+.fa-minus:hover:before, .fa-subtract:hover:before {
+  content: "\f068";
+  color: #BC5D2E;
+}
+#guardar-button-form{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+label {
+  display: table-cell;
+  font-weight: 700;
+}
+img, svg {
+  vertical-align:baseline;
+  max-width: 90px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: 30px;
+}
